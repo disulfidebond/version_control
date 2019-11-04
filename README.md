@@ -38,6 +38,19 @@ Jill navigates to the Github Gist, and tries the R code, but he finds a typo, an
 
 Since only the creator can modify the Github Gist, Jill suggests that they create a Github repository so that both of them can edit the code. Jill does this, and creates [a public github repository with a README and the R code](https://github.com/disulfidebond/data_analysis/tree/version1). This repository has 2 branches: *Master*, which is the default branch and is always created when a new repository is made, and *version 1*, which Jill created as the development version of the current project.
 
-Jack looks it over by creating a [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) of the *version 1* branch of the github repository.  He suggests adding the comments to the README wouldbe a better idea, so he makes this modification within Github and creates a *pull request*. A *pull request* must be approved by the owner (or someone with permission), and basically requests that the changes be merged back to the working version of the repository, which in this case is the version 1 fork.
+Jack looks it over by creating a [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) of the *version 1* branch of the github repository.  He suggests adding the comments to the README wouldbe a better idea, so he makes this modification within Github and creates a *pull request*. 
+
+![](https://github.com/disulfidebond/version_control/blob/master/pull_request_1.png)
+
+
+A *pull request* must be approved by the owner (or someone with permission), and basically requests that the changes be merged back to the working version of the repository, which in this case is the version 1 fork.
+
+![](https://github.com/disulfidebond/version_control/blob/master/pull_request_2.png)
+![](https://github.com/disulfidebond/version_control/blob/master/pull_request_3.png)
+
 
 Jill looks over the pull request, and approves it, thereby merging the two branches (or versions) into the current working development version of the repository. 
+
+![](https://github.com/disulfidebond/version_control/blob/master/pull_request_4.png)
+
+Now, the changes have been incorporated into the project. If she wants, Jill can make Jack a [contributor](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/permission-levels-for-a-user-account-repository) so that both of them can approve pull requests from each other. The version history is always available, and if necessary, some changes can be rolled back to a previous version or fork.
